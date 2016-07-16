@@ -1,0 +1,10 @@
+applications:
+- path: VaadinStarterApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: manifest vaadin
+  host: manifest-vaadin
+  disk_quota: 1024M
+  services:
+  - manifest vaadin-sqldb
